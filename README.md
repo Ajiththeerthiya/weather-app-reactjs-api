@@ -1,5 +1,7 @@
 # Weather Application ⛅
 
+#Live Demo 
+https://weatherappbyajith.netlify.app/
 
 ![Screenshot (85)](https://github.com/Ajiththeerthiya/weather-app-reactjs-api/assets/67873730/222b521f-9561-41b6-a5f3-35d4ea576b68)
 
