@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Search from './Search'
 import Display from './Display'
 import { WiDayCloudy } from "react-icons/wi";
-import { FaHtml5 } from 'react-icons/fa';
+// import { FaHtml5 } from 'react-icons/fa';
 
 
 const Weather = () => {
@@ -15,6 +15,7 @@ const Weather = () => {
             const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${name}&appid=7cf4779e9e3a6c9830e2c18b0a3d3a1a`)
 
             const data = await response.json()
+            console.log(data);
             if (data.message) {
                 return;
             } else {
