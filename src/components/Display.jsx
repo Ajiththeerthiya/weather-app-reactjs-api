@@ -29,7 +29,7 @@ const Display = ({ data }) => {
                             <h5>{cResult}C</h5>
                         </div>
                         <div className="wind-speed">
-                            <h4>Wind Speed <WiCloudyWindy className='cloud' />
+                            <h4>Wind Speed <WiCloudyWindy className='wind-cloud' />
                             </h4>
                             <h5 className='text-center'>{data.wind.speed}</h5>
                         </div>
